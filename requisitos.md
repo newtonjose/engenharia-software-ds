@@ -9,16 +9,15 @@ Convém destacar que há compilador disponível para a AQL (analisador léxico e
 ## Requisitos
 
 - R1 - O módulo recebe como entrada uma sequência de caracteres ou arquivo.aql 
-correspondente ao conteúdo de uma consulta em AQL;
+correspondente ao conteúdo de uma consulta em AQL e produzir uma estrutura de 
+dados equivalente à consulta;
 - R2 - O módulo é capaz de verificar se a consulta AQL está sintaticamente correta. 
 Em caso de não conformidade, então o módulo deverá sinalizar por meio de mensagem 
-de erro adequada, a não conformidade da consulta recebida;
-- R3 - O módulo deverá receber a consulta AQL e produzir uma estrutura de dados 
-equivalente à consulta;
-- R4 - Todas as consultas validas e convertida para a estrutura de dados
-serão retornadas para análise e execução posteriormente;
-- R5 - O módulo será capaz de receber a estrutura de dados válida e converter
-para a sequência de caracteres sem perda ou acréscimo de dados. 
+de erro adequada, a não conformidade da consulta recebida; 
+- R3 - O módulo será capaz de receber a estrutura de dados válida e converter
+ para a estrutura de dados e retornar para análise e execução posteriormente;
+- R4 - A estrutura de dados gerada de uma a consulta válida não porderá ter perda ou 
+acréscimo de dados.
 
 
 ## Notas
@@ -27,5 +26,7 @@ para a sequência de caracteres sem perda ou acréscimo de dados.
 
 | #        |      Nome     |  Descrição |
 |----------|:-------------:|-----------:|
-| ES01     | R1.           | Uma consulta deverá ter uma ou mais palavras-chaves: FOR, RETURN, FILTER, SEARCH, SORT, LIMIT, LET, COLLECT, INSERT, UPDATE, REPLACE, REMOVE, UPSERT. |
-| ES02     | R2            | Para validação da sintaxe, será usado um compilador para AQL. |
+| ES01     | R1            | Uma consulta deverá ter uma ou mais palavras-chaves da AQL: FOR, RETURN, FILTER, SEARCH, SORT, LIMIT, LET, COLLECT, INSERT, UPDATE, REPLACE, REMOVE, UPSERT. |
+| ES02     | R2            | Para validação da sintaxe, será usado um compilador para AQL (analisador léxico e sintático). |
+| ES03     | R3            | Será retornado uma Árvore Sintática Abstrata (_AST_) em formato JSON.
+| ES03     | R4            | A estrutura de dados proposta deverá ser bem definida e com padrão estabelecido.
