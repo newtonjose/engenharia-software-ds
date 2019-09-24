@@ -34,9 +34,10 @@ acréscimo de dados.
 
 ## Requisitos Não Funcionais
 
-- R01 - O módulo terá uma interface _Rest API_ para uso das funcionalidades
+- R01 - O módulo terá uma classe pública para uso das funcionalidades
 proposta.
-- R02 - O módulo usará um compilador (nome) para verificar a válidade de uma
+- R02 - O módulo usará a biblioteca ANTL4 para criar as _AST_ e verificar se
+a arvore criada a partir da consulta é valida.
  consulta AQL.
  
  #### Notas
@@ -45,5 +46,5 @@ proposta.
  
  | #        |      Nome     |  Descrição |
  |----------|:-------------:|-----------:|
- | ES01     | R01           | A _Rest API_ terá dois _end point_: chamada para validar um sequência de caracterso ou arquivo .aql.
+ | ES01     | R01           | A Classe terá dois métodos: um para validar se uma sequência de caracters ou arquivo .aql representa uma consulta válida. E segundo que receberá uma estrutura de dados e retornará a sequência de caractéres correspondente.
  | ES02     | R02           | Um compilador viável que poderá ser adotado: [openEHR](https://github.com/openEHR/archie).
