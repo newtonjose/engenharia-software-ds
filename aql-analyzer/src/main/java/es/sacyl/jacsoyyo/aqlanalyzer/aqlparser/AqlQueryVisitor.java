@@ -1,7 +1,7 @@
 /**
  * 
  */
-package es.sacyl.jacsoyyo.aqlparser;
+package es.sacyl.jacsoyyo.aqlanalyzer.aqlparser;
 
 import java.util.HashMap;
 import java.util.Map;

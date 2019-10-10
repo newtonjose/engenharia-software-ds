@@ -1,7 +1,7 @@
 /**
  * 
  */
-package es.sacyl.jacsoyyo.aqlparser;
+package es.sacyl.jacsoyyo.aqlanalyzer.aqlparser;
 
 import es.jacsoyyo.aqlparser.AqlBaseListener;
 import es.jacsoyyo.aqlparser.AqlParser.ArchetypedClassExprContext;

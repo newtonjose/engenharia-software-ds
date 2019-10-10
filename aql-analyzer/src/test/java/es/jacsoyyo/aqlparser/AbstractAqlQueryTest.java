@@ -5,7 +5,7 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.junit.Test;
 
 import es.jacsoyyo.aqlparser.AqlParser.QueryContext;
-import es.sacyl.jacsoyyo.aqlparser.AqlQueryVisitor;
+import es.sacyl.jacsoyyo.aqlanalyzer.aqlparser.AqlQueryVisitor;
 
 public abstract class AbstractAqlQueryTest {
 
