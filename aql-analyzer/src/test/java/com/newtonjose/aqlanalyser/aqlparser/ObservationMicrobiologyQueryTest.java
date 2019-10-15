@@ -1,4 +1,4 @@
-package com.jacsoyyo.aqlparser;
+package com.newtonjose.aqlanalyser.aqlparser;
 
 
 public class ObservationMicrobiologyQueryTest extends AbstractAqlQueryTest {

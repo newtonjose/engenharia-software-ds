@@ -1,7 +1,7 @@
 /**
  * 
  */
-package es.sacyl.jacsoyyo.aqlanalyzer.aqlparser;
+package com.github.newtonjose.aqlanalyzer.aqlparser;
 
 import java.util.HashMap;
 import java.util.Map;

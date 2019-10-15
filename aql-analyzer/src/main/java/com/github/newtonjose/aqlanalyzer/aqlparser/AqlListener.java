@@ -3,17 +3,19 @@
  */
 package com.github.newtonjose.aqlanalyzer.aqlparser;
 
-import com.jacsoyyo.aqlparser.AqlBaseListener;
-import com.jacsoyyo.aqlparser.AqlParser.ArchetypedClassExprContext;
-import com.jacsoyyo.aqlparser.AqlParser.ContainsContext;
-import com.jacsoyyo.aqlparser.AqlParser.EhrContainsContext;
-import com.jacsoyyo.aqlparser.AqlParser.FromContext;
-import com.jacsoyyo.aqlparser.AqlParser.FromEHRContext;
-import com.jacsoyyo.aqlparser.AqlParser.OrderByContext;
-import com.jacsoyyo.aqlparser.AqlParser.SelectExprContext;
-import com.jacsoyyo.aqlparser.AqlParser.SelectVarContext;
-import com.jacsoyyo.aqlparser.AqlParser.SimpleClassExprContext;
-import com.jacsoyyo.aqlparser.AqlParser.WhereContext;
+
+import com.newtonjose.aqlparser.AqlBaseListener;
+import com.newtonjose.aqlparser.AqlParser.ArchetypedClassExprContext;
+import com.newtonjose.aqlparser.AqlParser.ContainsContext;
+import com.newtonjose.aqlparser.AqlParser.EhrContainsContext;
+import com.newtonjose.aqlparser.AqlParser.FromContext;
+import com.newtonjose.aqlparser.AqlParser.FromEHRContext;
+import com.newtonjose.aqlparser.AqlParser.OrderByContext;
+import com.newtonjose.aqlparser.AqlParser.SelectExprContext;
+import com.newtonjose.aqlparser.AqlParser.SelectVarContext;
+import com.newtonjose.aqlparser.AqlParser.SimpleClassExprContext;
+import com.newtonjose.aqlparser.AqlParser.WhereContext;
+
 
 /**
  * @author jacobo

@@ -1,10 +1,10 @@
-package com.jacsoyyo.aqlparser;
+package com.newtonjose.aqlanalyser.aqlparser;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.junit.Test;
 
-import com.jacsoyyo.aqlparser.AqlParser.QueryContext;
+import com.newtonjose.aqlparser.AqlParser.QueryContext;
 import com.github.newtonjose.aqlanalyzer.aqlparser.AqlQueryVisitor;
 
 public abstract class AbstractAqlQueryTest {
