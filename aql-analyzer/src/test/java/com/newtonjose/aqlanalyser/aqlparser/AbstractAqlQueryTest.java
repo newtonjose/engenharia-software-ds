@@ -1,5 +1,7 @@
 package com.newtonjose.aqlanalyser.aqlparser;
 
+import com.newtonjose.aqlparser.AqlLexer;
+import com.newtonjose.aqlparser.AqlParser;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.junit.Test;
