@@ -1,4 +1,4 @@
-package es.jacsoyyo.aqlparser;
+package com.jacsoyyo.aqlparser;
 
 public class SimpleEhrQueryTest extends AbstractAqlQueryTest {
 
@@ -6,5 +6,4 @@ public class SimpleEhrQueryTest extends AbstractAqlQueryTest {
 	protected String aqlQueryString() {
 		return "SELECT e/ehr_id/value as id FROM EHR e;";
 	}
-
 }

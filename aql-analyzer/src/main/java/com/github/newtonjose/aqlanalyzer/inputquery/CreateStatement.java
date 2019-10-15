@@ -1,4 +1,4 @@
-package es.sacyl.jacsoyyo.aqlanalyzer.inputquery;
+package com.github.newtonjose.aqlanalyzer.inputquery;
 
 public class CreateStatement {
 

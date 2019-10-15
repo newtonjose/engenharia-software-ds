@@ -1,4 +1,4 @@
-package es.jacsoyyo.aqlparser;
+package com.jacsoyyo.aqlparser;
 
 
 public class EhrQuerySelectStatusTest extends AbstractAqlQueryTest {
