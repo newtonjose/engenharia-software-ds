@@ -4,6 +4,7 @@ public class SimpleEhrQueryTest extends AbstractAqlQueryTest {
 
 	@Override
 	protected String aqlQueryString() {
-		return "SELECT e/ehr_id/value as id FROM EHR e;";
+		return "SELECT TOP 10 e/ehr_id/value as id FROM EHR e;";
 	}
 }
+
