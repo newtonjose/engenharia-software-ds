@@ -8,19 +8,19 @@ import java.util.Map;
 
 import org.antlr.v4.runtime.tree.TerminalNode;
 
-import es.jacsoyyo.aqlparser.AqlBaseVisitor;
-import es.jacsoyyo.aqlparser.AqlParser.AsIdentifierContext;
-import es.jacsoyyo.aqlparser.AqlParser.ContainsContext;
-import es.jacsoyyo.aqlparser.AqlParser.EhrContainsContext;
-import es.jacsoyyo.aqlparser.AqlParser.FromContext;
-import es.jacsoyyo.aqlparser.AqlParser.FromEHRContext;
-import es.jacsoyyo.aqlparser.AqlParser.IdentifiedPathContext;
-import es.jacsoyyo.aqlparser.AqlParser.IdentifiedPathSeqContext;
-import es.jacsoyyo.aqlparser.AqlParser.OrderByContext;
-import es.jacsoyyo.aqlparser.AqlParser.QueryContext;
-import es.jacsoyyo.aqlparser.AqlParser.SelectContext;
-import es.jacsoyyo.aqlparser.AqlParser.SelectVarContext;
-import es.jacsoyyo.aqlparser.AqlParser.WhereContext;
+import com.newtonjose.aqlparser.AqlBaseVisitor;
+import com.newtonjose.aqlparser.AqlParser.AsIdentifierContext;
+import com.newtonjose.aqlparser.AqlParser.ContainsContext;
+import com.newtonjose.aqlparser.AqlParser.EhrContainsContext;
+import com.newtonjose.aqlparser.AqlParser.FromContext;
+import com.newtonjose.aqlparser.AqlParser.FromEHRContext;
+import com.newtonjose.aqlparser.AqlParser.IdentifiedPathContext;
+import com.newtonjose.aqlparser.AqlParser.IdentifiedPathSeqContext;
+import com.newtonjose.aqlparser.AqlParser.OrderByContext;
+import com.newtonjose.aqlparser.AqlParser.QueryContext;
+import com.newtonjose.aqlparser.AqlParser.SelectContext;
+import com.newtonjose.aqlparser.AqlParser.SelectVarContext;
+import com.newtonjose.aqlparser.AqlParser.WhereContext;
 
 /**
  * @author jacobo
