@@ -1,26 +1,26 @@
 /**
  * 
  */
-package com.github.newtonjose.aqlanalyzer.aqlparser;
+package com.github.newtonjose.aqlanalyzer.aqlquery;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.antlr.v4.runtime.tree.TerminalNode;
 
-import com.newtonjose.aqlparser.AqlBaseVisitor;
-import com.newtonjose.aqlparser.AqlParser.AsIdentifierContext;
-import com.newtonjose.aqlparser.AqlParser.ContainsContext;
-import com.newtonjose.aqlparser.AqlParser.EhrContainsContext;
-import com.newtonjose.aqlparser.AqlParser.FromContext;
-import com.newtonjose.aqlparser.AqlParser.FromEHRContext;
-import com.newtonjose.aqlparser.AqlParser.IdentifiedPathContext;
-import com.newtonjose.aqlparser.AqlParser.IdentifiedPathSeqContext;
-import com.newtonjose.aqlparser.AqlParser.OrderByContext;
-import com.newtonjose.aqlparser.AqlParser.QueryContext;
-import com.newtonjose.aqlparser.AqlParser.SelectContext;
-import com.newtonjose.aqlparser.AqlParser.SelectVarContext;
-import com.newtonjose.aqlparser.AqlParser.WhereContext;
+import com.newtonjose.aqlquery.AqlBaseVisitor;
+import com.newtonjose.aqlquery.AqlParser.AsIdentifierContext;
+import com.newtonjose.aqlquery.AqlParser.ContainsContext;
+import com.newtonjose.aqlquery.AqlParser.EhrContainsContext;
+import com.newtonjose.aqlquery.AqlParser.FromContext;
+import com.newtonjose.aqlquery.AqlParser.FromEHRContext;
+import com.newtonjose.aqlquery.AqlParser.IdentifiedPathContext;
+import com.newtonjose.aqlquery.AqlParser.IdentifiedPathSeqContext;
+import com.newtonjose.aqlquery.AqlParser.OrderByContext;
+import com.newtonjose.aqlquery.AqlParser.QueryContext;
+import com.newtonjose.aqlquery.AqlParser.SelectContext;
+import com.newtonjose.aqlquery.AqlParser.SelectVarContext;
+import com.newtonjose.aqlquery.AqlParser.WhereContext;
 
 /**
  * @author jacobo

@@ -1,9 +1,9 @@
-package com.newtonjose.aqlanalyser.aqlparser;
+package com.newtonjose.aqlanalyser.aqlquery;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.newtonjose.aqlparser.AqlLexer;
-import com.newtonjose.aqlparser.AqlParser;
+import com.newtonjose.aqlquery.AqlLexer;
+import com.newtonjose.aqlquery.AqlParser;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;

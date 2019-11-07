@@ -1,13 +1,13 @@
 package com.newtonjose.aqlanalyser.aqlparser;
 
-import com.newtonjose.aqlparser.AqlLexer;
-import com.newtonjose.aqlparser.AqlParser;
+import com.newtonjose.aqlquery.AqlLexer;
+import com.newtonjose.aqlquery.AqlParser;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.junit.Test;
 
-import com.newtonjose.aqlparser.AqlParser.QueryContext;
-import com.github.newtonjose.aqlanalyzer.aqlparser.AqlQueryVisitor;
+import com.newtonjose.aqlquery.AqlParser.QueryContext;
+import com.github.newtonjose.aqlanalyzer.aqlquery.AqlQueryVisitor;
 
 public abstract class AbstractAqlQueryTest {
 
